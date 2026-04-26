@@ -36,7 +36,7 @@ To implement an end-to-end CI/CD pipeline that:
 ---
 
 ## 🏗️ Architecture Diagram
-![Architecture](Screenshots/06-architecture/architecture.png)
+![Architecture](Screenshots/architecture.png)
 
 ---
 
@@ -61,19 +61,19 @@ To implement an end-to-end CI/CD pipeline that:
 ## 📸 Screenshots
 
 ### 🔹 GitHub Repository
-![GitHub](Screenshots/01-github/repo-home.png)
+![GitHub](Screenshots/repo-home.png)
 
 ### 🔹 CodePipeline Execution
-![Pipeline](Screenshots/02-codepipeline/pipeline-success.png)
+![Pipeline](Screenshots/pipeline-success.png)
 
 ### 🔹 CodeBuild Process
-![Build](Screenshots/03-codebuild/build-success.png)
+![Build](Screenshots/build-success.png)
 
 ### 🔹 CodeDeploy Status
-![Deploy](Screenshots/04-codedeploy/deploy-success.png)
+![Deploy](Screenshots/deploy-success.png)
 
 ### 🔹 Final Application Output
-![App](Screenshots/05-final-output/app-live.png)
+![App](Screenshots/app-live.png)
 
 ---
 
