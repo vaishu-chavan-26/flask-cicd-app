@@ -1,17 +1,18 @@
-# 🚀 CI/CD Pipeline Project (AWS DevOps)
+# 🚀 CI/CD Pipeline for Flask Application (AWS DevOps Project)
 
-## 📌 Overview
-This project demonstrates a fully automated CI/CD pipeline using AWS services. The pipeline automatically builds and deploys a web application whenever code is pushed to GitHub.
+## 📌 Project Overview
+This project demonstrates a fully automated CI/CD pipeline using AWS services. The pipeline automatically builds and deploys a Flask web application whenever code is pushed to GitHub.
 
-It follows a real-world DevOps workflow used in production systems.
+It follows a real-world DevOps workflow used in production environments.
 
 ---
 
 ## 🎯 Objective
-To build an automated CI/CD pipeline that:
-- Integrates GitHub with AWS
-- Automates build and deployment
-- Deploys application to EC2 without manual intervention
+To implement an end-to-end CI/CD pipeline that:
+- Automates application deployment
+- Integrates GitHub with AWS services
+- Enables continuous integration and delivery
+- Eliminates manual deployment steps
 
 ---
 
@@ -26,42 +27,80 @@ To build an automated CI/CD pipeline that:
 ---
 
 ## 🏗️ Architecture Diagram
-![Architecture](architecture/architecture.png)
+![Architecture](Screenshots/06-architecture/architecture.png)
 
 ---
 
 ## 🔁 CI/CD Workflow
 
-1. Developer pushes code to GitHub repository
-2. CodePipeline detects the change automatically
-3. CodeBuild installs dependencies and builds the application
-4. CodeDeploy deploys the application to EC2 instance
-5. Application is live and accessible via public IP
+1. Developer pushes code to GitHub repository  
+2. AWS CodePipeline detects changes automatically  
+3. CodeBuild installs dependencies and builds the application  
+4. CodeDeploy deploys the application to EC2 instance  
+5. Application is automatically updated and live
 
 ---
 
 ## ⚙️ Tech Stack
-- Node.js / Flask (Application)
+- Flask (Python Web Framework)
 - AWS CI/CD Services
-- Linux (EC2 Server)
-- GitHub (Version Control)
+- Linux EC2 Server
+- GitHub Version Control
 
 ---
 
 ## 📸 Screenshots
 
+### 🔹 GitHub Repository
+![GitHub](Screenshots/01-github/repo-home.png)
+
 ### 🔹 CodePipeline Execution
-![Pipeline](screenshots/pipeline-success.png)
+![Pipeline](Screenshots/02-codepipeline/pipeline-success.png)
 
 ### 🔹 CodeBuild Process
-![Build](screenshots/build-success.png)
+![Build](Screenshots/03-codebuild/build-success.png)
 
-### 🔹 Deployment Status
-![Deploy](screenshots/deployment-success.png)
+### 🔹 CodeDeploy Status
+![Deploy](Screenshots/04-codedeploy/deploy-success.png)
 
 ### 🔹 Final Application Output
-![App](screenshots/app-output.png)
+![App](Screenshots/05-final-output/app-live.png)
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## 🚀 Key Features
+- Fully automated CI/CD pipeline
+- Continuous integration and deployment
+- No manual deployment required after setup
+- Real-time updates from GitHub commits
+- Production-style DevOps architecture
+
+---
+
+## 📈 What I Learned
+- AWS CI/CD pipeline architecture
+- CodeBuild automation process
+- CodeDeploy deployment workflow
+- GitHub integration with AWS services
+- Real-world DevOps pipeline implementation
+
+---
+
+## 🔥 Real-World Use Case
+This project simulates how modern companies deploy applications:
+- Every code push triggers automatic deployment
+- Reduces human error
+- Improves deployment speed and reliability
+- Enables continuous delivery
+
+---
+
+## 👩‍💻 Author
+EC2 Default User
+
+---
+
+
