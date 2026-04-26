@@ -1,5 +1,14 @@
 # 🚀 CI/CD Pipeline for Flask Application (AWS DevOps Project)
 
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-blue?logo=githubactions)
+![Flask](https://img.shields.io/badge/Flask-Python-black?logo=flask)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![DevOps](https://img.shields.io/badge/DevOps-AWS%20Pipeline-red?logo=amazon-aws)
+
+---
+
 ## 📌 Project Overview
 This project demonstrates a fully automated CI/CD pipeline using AWS services. The pipeline automatically builds and deploys a Flask web application whenever code is pushed to GitHub.
 
@@ -37,7 +46,7 @@ To implement an end-to-end CI/CD pipeline that:
 2. AWS CodePipeline detects changes automatically  
 3. CodeBuild installs dependencies and builds the application  
 4. CodeDeploy deploys the application to EC2 instance  
-5. Application is automatically updated and live
+5. Application is automatically updated and live  
 
 ---
 
@@ -76,7 +85,7 @@ To implement an end-to-end CI/CD pipeline that:
 - Continuous integration and deployment
 - No manual deployment required after setup
 - Real-time updates from GitHub commits
-- Production-style DevOps architecture
+- Production-level DevOps architecture
 
 ---
 
@@ -100,7 +109,4 @@ This project simulates how modern companies deploy applications:
 
 ## 👩‍💻 Author
 EC2 Default User
-
----
-
 
