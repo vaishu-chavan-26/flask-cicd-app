@@ -108,5 +108,5 @@ This project simulates how modern companies deploy applications:
 ---
 
 ## 👩‍💻 Author
-EC2 Default User
+Vaishnavi Chavan
 
